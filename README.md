@@ -8,7 +8,7 @@ for all your python programs.
 
 - I was using this for bluetooth tracking, but can definitely be used for a bunch of other purposes.
 
-## also beacon-scan.h is not my code. 
+### also beacon-scan.h is not my code. 
 It is only being used here as it properly starts bluetoothctl (which I had a hard time doing in my own shell script), </br>
 and prints a nice feed to look at while buildManifest.py runs. All the data is collected and processed by my own code</br>
 in buildManifest.py.
