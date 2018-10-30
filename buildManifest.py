@@ -112,7 +112,7 @@ def getConnectable():
 					name = connectable[index][1]
 				if(RSSI == ""):
 					RSSI = connectable[index][2]
-				connectable[snagged[bdaddr]] = (bdaddr, name, RSSI)
+				connectable[snagged[bdaddr]] = [bdaddr, name, RSSI]
 			except IndexError:
 				print("problematic index: "+str(snagged[bdaddr]))
 				print(snagged)
